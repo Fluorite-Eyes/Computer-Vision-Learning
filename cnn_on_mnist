@@ -7,6 +7,8 @@ from sklearn.metrics import confusion_matrix, classification_report
 import pandas as pd
 import seaborn as sns
 
+# the net and train codes are from https://github.com/chunhuizhang/bilibili_vlogs/blob/master/dl/tutorials/02_cnn_on_mnist.ipynb
+
 # dataset
 input_shape = 28
 num_classes = 10
@@ -74,7 +76,7 @@ device = torch.device('cuda')
 model.load_state_dict(torch.load('cnn_mnist.ckpt'))
 model.to(device)
 
-
+# the evaluation part are original
 
 total = 0
 correct = 0
