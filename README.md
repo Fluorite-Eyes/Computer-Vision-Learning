@@ -6,8 +6,8 @@ and got evaluations like this:
 ![image](https://github.com/Fluorite-Eyes/Computer-Vision-Learning/assets/127964578/470674cd-8df9-4365-b967-2624c9603891)
 
 packages and environment used
-#
-# Name                    Version                   Build  Channel
+
+ Name                    Version                   Build  Channel
 _libgcc_mutex             0.1                        main    anaconda
 _openmp_mutex             5.1                       1_gnu    anaconda
 ca-certificates           2023.01.10           h06a4308_0    anaconda
