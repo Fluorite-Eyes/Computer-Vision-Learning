@@ -2,13 +2,26 @@
 It is just for the record of my learning.
 
 implemented CNN, VGG-16, ResNet-18 on MNIST and CIFAR10
-and got evaluations like this:
+and got CONFUSION MATRIX like this and precision f1-score accuracy ...:
 ![image](https://github.com/Fluorite-Eyes/Computer-Vision-Learning/assets/127964578/470674cd-8df9-4365-b967-2624c9603891)
+
+And implemented U-Net on PASCAL VOC 2012
 
 packages and environment used
 
- Name                    Version                   Build  Channel
-_libgcc_mutex             0.1                        main    anaconda
+<table>
+ <tr>
+  <th>Name</th>
+  <th>Version</th>
+  <th>Build  Channel</th>
+ </tr>
+ <tr>
+   <td>_libgcc_mutex</td>
+   <td>0.1</td>
+   <td>main    anaconda</td>
+ </tr>
+ </table>
+   AS BELOWE
 _openmp_mutex             5.1                       1_gnu    anaconda
 ca-certificates           2023.01.10           h06a4308_0    anaconda
 certifi                   2022.12.7        py38h06a4308_0    anaconda
